@@ -27,3 +27,9 @@ Una volta compiuto l'avvelenamento della cache ARP dei dispositivi coinvolti, l'
 * Denial of Service (DoS): Blocco o deviazione del traffico per impedire ai dispositivi di accedere alla rete o a Internet.
 * Data Modification: Alterazione dei dati in transito o iniezione di codice/malware.
 
+---
+
+## Funzionamento del Rilevatore
+Il programma, creerà una sua tabella ARP usando un dizionario per poi controllare se i pacchetti ricevuti cambiano una delle voci della tabella.
+Supporrà che ogni modifica alla tabella possa essere dannoso.
+Per fare tutto ciò utilizza una libreria di python chiamata 'Scapy' la quale è in grado di intercettare e analizzare i pacchetti che attraversano la scheda NIC
