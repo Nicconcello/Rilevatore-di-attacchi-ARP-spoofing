@@ -32,4 +32,4 @@ Una volta compiuto l'avvelenamento della cache ARP dei dispositivi coinvolti, l'
 ## Funzionamento del Rilevatore
 Il programma, creerà una sua tabella ARP usando un dizionario per poi controllare se i pacchetti ricevuti cambiano una delle voci della tabella.
 Supporrà che ogni modifica alla tabella possa essere dannoso.
-Per fare tutto ciò utilizza una libreria di python chiamata 'Scapy' la quale è in grado di intercettare e analizzare i pacchetti che attraversano la scheda NIC
+Per fare tutto ciò utilizza una libreria di python chiamata 'sniff' la quale è in grado di intercettare e analizzare i pacchetti che attraversano la scheda NIC
