@@ -13,9 +13,9 @@ Durante un attacco di ARP spoofing, l'aggressore invia messaggi ARP falsificati 
 * Inganna i dispositivi della rete inducendoli a credere che il computer dell'attaccante sia il router legittimo.
 
 <p align="center">
-    <img src="I2CS__1_.png" alt="Spoofing vittima" width="160" />
+    <img src="spoofingV.png" alt="Spoofing vittima" width="400" />
   </a>
-    <img src="networking-basics.png" alt="Spoofing router" width="160" />
+    <img src="spoofingR.png" alt="Spoofing router" width="400" />
   </a>
 </p>
       
