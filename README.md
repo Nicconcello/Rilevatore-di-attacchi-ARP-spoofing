@@ -11,6 +11,14 @@ Il protocollo ARP ha il compito fondamentale di associare un indirizzo IP (logic
 Durante un attacco di ARP spoofing, l'aggressore invia messaggi ARP falsificati (ARP replies contraffatte) all'interno della LAN. In questo modo:
 * Collega il proprio indirizzo MAC all'indirizzo IP del gateway o di un altro computer.
 * Inganna i dispositivi della rete inducendoli a credere che il computer dell'attaccante sia il router legittimo.
+
+<p align="center">
+    <img src="I2CS__1_.png" alt="Spoofing vittima" width="160" />
+  </a>
+    <img src="networking-basics.png" alt="Spoofing router" width="160" />
+  </a>
+</p>
+      
 ---
 ### Obiettivi
 Una volta compiuto l'avvelenamento della cache ARP dei dispositivi coinvolti, l'attaccante può posizionarsi al centro della comunicazione, dando vita a uno scenario di tipo Man-in-the-Middle (MitM). I rischi principali includono:
